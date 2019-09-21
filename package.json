@@ -1,0 +1,20 @@
+{
+  "name": "collect_api_mod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon kite.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.11.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.14.1",
+    "nodemon": "^1.19.2",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {}
+}

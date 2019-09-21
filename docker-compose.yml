@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mints-pie:
+    build: .  
+    ports:
+     - "3000:3000"
+    image: paulnickhunter/mints-pie  
+    links: 
+     - redis-server 
+  redis-server:
+    image: "redis:alpine"
+  
