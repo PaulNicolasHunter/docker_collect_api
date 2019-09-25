@@ -1,13 +1,13 @@
 {
   "name": "collect_api_mod",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API endpoint for data uploading and aborting to redis servier",
   "main": "index.js",
   "scripts": {
     "start": "nodemon kite.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Vivek Choudhary (paulnicolashunter) choudhary.vivek98@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bull": "^3.11.0",

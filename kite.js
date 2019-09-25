@@ -106,6 +106,10 @@ app.post('/abort', (req, res) => {
     }).catch(e => console.log(e))
 })
 
+app.use('*', (req, res) => {
+    res.send('invaid endpoint kindly contact me, <3');
+})
+
 app.listen(port, () => {
-    console.log(`listining at port ${port}`)
+    console.log(`listening at port ${port}`)
 })

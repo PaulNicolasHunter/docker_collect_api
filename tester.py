@@ -22,5 +22,6 @@ for _ in dat:
 
 """
 a = requests.post( 'http://localhost:3000/upload',  data=data)
+a = requests.get( 'http://localhost:3000/abort')
 
-print(a.text)
+print(a.text) # should pring hello
